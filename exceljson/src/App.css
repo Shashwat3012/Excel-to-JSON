@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-title {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.App-content {
+  margin-top: 50px;
+}
+
+.upload-label {
+  padding: 15px 30px;
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.upload-label input[type="file"] {
+  display: none;
+}
+
+.upload-label:hover {
+  background-color: #208eff;
+}
